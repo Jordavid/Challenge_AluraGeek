@@ -1,0 +1,16 @@
+{
+    "cards": [
+        {
+            "id": 1,
+            "nombre": "Ejemplo",
+            "precio": 18.00,
+            "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+        },
+        {
+            "id": 2,
+            "nombre": "Ejemplo2",
+            "precio": 20.00,
+            "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+        }
+    ]
+}
