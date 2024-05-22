@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Alura Geek</title>
+    <link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
+    <link rel="stylesheet" href="./Style/style.css">
+    <link rel="stylesheet" href="./Style/reset.css">
+</head>
+<body>
+    <head>
+        <div class="geek_head">
+            <img src="./assets/coraGeek.png" class="imgGeek">
+            <h1 class="titulo_Geek">AluraGeek</h1>
+        </div>
+    </head>
+
+    <main>
+        <div class="container">
+            <section class="container_productos">
+
+                <div class="productos_titulo">
+                    <h2 class="titulo">Mis Productos:</h2>
+                </div>
+        
+                <div class="productos_container">
+                    <div class="productos_cards">
+                        <div class="card_container">
+                            <div class="card" data-productos-cards>
+                                <img src="./assets/producto.jpg" />
+                                <div class="card-container--info">
+                                  <span class="nombre_card">Nombre</span>
+                                  <div class="card-container--value">
+                                    <span class="precio_card">$ 00.00</span>
+                                    <img src="./assets/trash.png" />
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+    
+            <section class="container_formulario" data-productos-formulario>
+                <div class="formulario_titulo">
+                    <h2 class="form_titulo">Agregar</h2>
+                    <h2 class="form_titulo2">Producto:</h2>
+                </div>
+    
+                <div class="form">
+                    <form class="formulario_principal" data-formulario>
+    
+                        <fieldset class="formulario_campo">
+                            <input name="nombre" id="nombre" class="campo__completo" type="text" placeholder="nombre..." required data-nombre/>
+                            <span class="mensaje-error"></span>
+                        </fieldset>
+        
+                        <fieldset class="formulario_campo">
+                            <input name="precio" id="precio" class="campo__completo" type="number" placeholder="precio..." required data-precio/>
+                            <span class="mensaje-error"></span>
+                        </fieldset>
+        
+                        <fieldset class="formulario_campo">
+                            <input name="imagen" id="imagen" class="campo__completo" type="text" placeholder="imagen..." required data-imagen/>
+                            <span class="mensaje-error"></span>
+                        </fieldset>
+        
+                        <input class="formulario__boton__enviar" type="submit" value="Enviar" />
+                        <input class="formulario__boton__limpiar" type="submit" value="Limpiar" />
+        
+                    </form>
+                </div>
+                
+            </section>
+            
+        </div>
+        
+    </main>
+
+    <!-- <footer class="footer_">
+        <div class="geek_footer">
+            <img src="./assets/coraGeek.png" class="imgGeek">
+            <h1 class="titulo_Geek">AluraGeek</h1>
+
+            <div>
+                <p>Desarrollador por "Jordavid"</p>
+                <p>ALURA LATAM - 2024</p>
+            </div>
+        </div>
+    </footer> -->
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer_geek">
+                <img src="./assets/coraGeek.png" class="hearts">
+                <h1 class="title">AluraGeek</h1>
+            </div>
+            
+            <p class="developed-by">DESAROLLADO POR [TU NOMBRE]</p>
+            <p class="year">ALURA LATAM- 202X</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
