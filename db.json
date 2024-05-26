@@ -1,16 +1,22 @@
 {
-    "cards": [
-        {
-            "id": 1,
-            "nombre": "Ejemplo",
-            "precio": 18.00,
-            "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
-        },
-        {
-            "id": 2,
-            "nombre": "Ejemplo2",
-            "precio": 20.00,
-            "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
-        }
-    ]
+  "cards": [
+    {
+      "nombre": "Ejemplo",
+      "precio": 18,
+      "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+      "id": 1
+    },
+    {
+      "nombre": "Control",
+      "precio": 200,
+      "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+      "id": 2
+    },
+    {
+      "nombre": "Car",
+      "precio": 150,
+      "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+      "id": 3
+    }
+  ]
 }
