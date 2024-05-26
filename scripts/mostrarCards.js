@@ -1,8 +1,8 @@
 import { exportaApi } from "./conexionAPI.js";
-/* import deleteCards from "./eliminarCard.js"; */
 import { methodDelete } from "./eliminarCard.js";
 
 const lista = document.querySelector("[data-productosCards]");
+const limpiar = document.querySelector(".formulario__boton__limpiar");
 
 function mostrarCards(id, name, price, image) {
     const cardGeek = document.createElement("li");
@@ -37,6 +37,15 @@ async function listarCards() {
     } catch (error) {
         lista.innerHTML = `<h2 class="mensaje__titulo">Ha ocurrido un problema con la conexión :(</h2>`;
     }
+}
+
+limpiar.addEventListener('submit', limpiarCampos);
+
+function limpiarCampos(evento){
+    evento.preventDefault();
+    document.getElementById('nombre').value = '';
+    document.getElementById('precio').value = '';
+    document.getElementById('imagen').value = '';
 }
 
 listarCards();
