@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Challenge Alura Geek</title>
     <link href='https://fonts.googleapis.com/css?family=Press Start 2P' rel='stylesheet'>
-    <link rel="stylesheet" href="./Style/style.css">
+    <link rel="stylesheet" href="./Style/style2.css">
     <link rel="stylesheet" href="./Style/reset.css">
 </head>
 <body>
     <head>
         <div class="geek_head">
-            <img src="./assets/coraGeek.png" class="imgGeek">
-            <h1 class="titulo_Geek">AluraGeek</h1>
+            <div class="geek_container_head">
+                <img src="./assets/coraGeek2.png" class="imgGeek">
+                <h1 class="titulo_Geek">AluraGeek</h1>
+            </div>
         </div>
     </head>
 
@@ -25,19 +27,9 @@
                 </div>
         
                 <div class="productos_container">
-                    <div class="productos_cards">
-                        <div class="card_container">
-                            <div class="card" data-productosCards>
-                                <!-- <img src="./assets/producto.jpg" />
-                                <div class="card-container--info">
-                                  <span class="nombre_card">Nombre</span>
-                                  <div class="card-container--value">
-                                    <span class="precio_card">$ 00.00</span>
-                                    <img src="./assets/trash.png" />
-                                  </div>
-                                </div>
-                            </div> -->
-                        </div>
+                    
+                    <div class="cartas" data-productosCards>
+                        
                     </div>
                 </div>
                 
@@ -94,16 +86,18 @@
     <footer class="footer">
         <div class="footer-content">
             <div class="footer_geek">
-                <img src="./assets/coraGeek.png" class="hearts">
+                <img src="./assets/coraGeek2.png" class="imgGeek_footer">
                 <h1 class="title">AluraGeek</h1>
             </div>
-            
-            <p class="developed-by">DESAROLLADO POR [TU NOMBRE]</p>
-            <p class="year">ALURA LATAM- 202X</p>
+            <div class="developed_footer">
+                <p class="developed_by">DESAROLLADO POR JORDAVID PEREZ GONZALEZ</p>
+                <p class="year">ALURA LATAM- 2024</p>
+            </div>
         </div>
     </footer>
     
     <script src="./scripts/mostrarCards.js" type="module"></script>
     <script src="/scripts/crearCard.js" type="module"></script>
+    
 </body>
 </html>
