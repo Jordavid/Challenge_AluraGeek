@@ -1,28 +1,40 @@
 {
   "products": [
     {
-      "nombre": "Ejemplo",
-      "precio": 18,
-      "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+      "nombre": "Pikachu",
+      "precio": 500,
+      "imagen": "https://images.pexels.com/photos/1716861/pexels-photo-1716861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "id": "1"
     },
     {
-      "nombre": "Control",
-      "precio": 200,
-      "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
+      "nombre": "Robot",
+      "precio": 150,
+      "imagen": "https://images.pexels.com/photos/4013157/pexels-photo-4013157.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       "id": "2"
     },
     {
       "id": "7f7a",
-      "nombre": "Mando",
-      "precio": 1561,
-      "imagen": "https://images.pexels.com/photos/255514/pexels-photo-255514.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      "nombre": "Trompo",
+      "precio": 200,
+      "imagen": "https://images.pexels.com/photos/158838/pexels-photo-158838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     },
     {
       "id": "ed3d",
       "nombre": "Luigi",
       "precio": 1000,
       "imagen": "https://images.pexels.com/photos/163036/mario-luigi-yoschi-figures-163036.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "ea60",
+      "nombre": "Dinosaurio",
+      "precio": 300,
+      "imagen": "https://images.pexels.com/photos/3671194/pexels-photo-3671194.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "1361",
+      "nombre": "Emoji de peluche",
+      "precio": 400,
+      "imagen": "https://images.pexels.com/photos/207983/pexels-photo-207983.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }
   ]
 }
