@@ -30,3 +30,7 @@ Para iniciar el servidor JSON, ejecuta el siguiente comando:
 
 ```bash
 npx json-server --watch db.json
+
+![Alura Geek]
+![image](https://github.com/Jordavid/Challenge_AluraGeek/assets/97200394/299965e7-c054-40f3-88ce-ff732dcd1b20)
+
