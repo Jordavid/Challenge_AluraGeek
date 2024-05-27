@@ -6,14 +6,14 @@ async function listaCardGeek (){
     return conexionJson;
 }
 
-async function crearCardGeek(name, price, image) {
+async function crearCardGeek(nombre, precio, imagen) {
     const conexion = await fetch('http://localhost:3001/products', {
         method: "POST",
         headers: { "Content-type": "application/json" },
         body: JSON.stringify({
-            name: name,
-            price: parseFloat(price), // Asegura que el precio sea un número
-            image: image
+            nombre: nombre,
+            precio: parseFloat(precio), // Asegura que el precio sea un número
+            imagen: imagen
         })
     });
 

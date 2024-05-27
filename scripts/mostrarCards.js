@@ -4,7 +4,7 @@ import { methodDelete } from "./eliminarCard.js";
 const lista = document.querySelector("[data-productosCards]");
 const limpiar = document.querySelector(".formulario__boton__limpiar");
 
-function mostrarCards(id, name, price, image) {
+function mostrarCards(id, nombre, precio, imagen) {
     const cardGeek = document.createElement("li");
     cardGeek.classList.add("card__item");
 
@@ -12,11 +12,11 @@ function mostrarCards(id, name, price, image) {
     <div class="productos_cards">
         <div class="card">
             <div class="card_full">
-                <img src="${image}" alt="Imagen de la tarjeta" class="image_geek"/>
+                <img src="${imagen}" alt="Imagen de la tarjeta" class="image_geek"/>
                 <div class="card-container--info">
-                    <span class="nombre_card">${name}</span>
+                    <span class="nombre_card">${nombre}</span>
                     <div class="card_container_value">
-                        <span class="precio_card">$ ${price}</span>
+                        <span class="precio_card">$ ${precio}</span>
                         <img src="./assets/trash.png" alt="Icono de basura" class="delete-icon" />
                     </div>
                 </div>
@@ -33,7 +33,7 @@ async function listarCards() {
     try {
         const listaCard = await exportaApi.listaCardGeek();
         console.log(listaCard);
-        listaCard.forEach(element => lista.appendChild(mostrarCards(element.id, element.name, element.price, element.image)));
+        listaCard.forEach(element => lista.appendChild(mostrarCards(element.id, element.nombre, element.precio, element.imagen)));
     } catch (error) {
         lista.innerHTML = `<h2 class="mensaje__titulo">Ha ocurrido un problema con la conexión :(</h2>`;
     }

@@ -1,22 +1,28 @@
 {
-  "cards": [
+  "products": [
     {
       "nombre": "Ejemplo",
       "precio": 18,
       "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
-      "id": 1
+      "id": "1"
     },
     {
       "nombre": "Control",
       "precio": 200,
       "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
-      "id": 2
+      "id": "2"
     },
     {
-      "nombre": "Car",
-      "precio": 150,
-      "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true",
-      "id": 3
+      "id": "7f7a",
+      "nombre": "Mando",
+      "precio": 1561,
+      "imagen": "https://images.pexels.com/photos/255514/pexels-photo-255514.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": "ed3d",
+      "nombre": "Luigi",
+      "precio": 1000,
+      "imagen": "https://images.pexels.com/photos/163036/mario-luigi-yoschi-figures-163036.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
     }
   ]
 }
